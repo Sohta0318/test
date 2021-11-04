@@ -17,7 +17,7 @@ public class EmployeeMain {
 		eService.addEmployee(new Employee(1111, "Michael", "Sales", 28));
 		eService.addEmployee(new Employee(2222, "Samuel", "Technology", 25));
 		eService.addEmployee(new Employee(3333, "John", "Operations", 30));
-		
+//		
 		//show all employees
 		List<Employee> employeeList = eService.showAllEmployees();
 				
@@ -29,7 +29,7 @@ public class EmployeeMain {
 		}
 		
 		//delete an employee
-		eService.deleteEmployee(1111);
+//		eService.deleteEmployee(1111);
 		
 		//updata an enployee 
 		eService.updateEmployee(new Employee(1111, "Sohta", "Sutudent", 22));

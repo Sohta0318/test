@@ -7,9 +7,9 @@ import com.ems.exception.EmployeeNotFoundException;
 
 public interface EmployeeDAO {
 
-	public static final String URL = "jdbc:mysql://localhost:3306/employees_database";
+	public static final String URL = "jdbc:mysql://127.0.0.1:3306/employees_database";
 	public static final String USERNAME = "root";
-	public static final String PASSWORD = "password";
+	public static final String PASSWORD = "Sota0318";
 	public static final String DRIVER_CLASSNAME = "com.mysql.jdbc.Driver";
 	
 	public List<Employee> showAllEmployees();
